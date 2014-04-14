@@ -1,0 +1,32 @@
+package rose.capturethedroid;
+
+import android.app.Application;
+
+/**
+ * TODO Put here a description of what this class does.
+ *
+ * @author thaimp.
+ *         Created Apr 12, 2014.
+ */
+public class Extras extends Application {
+	Coordinate[] flagpos;
+	boolean flagCarrier;
+	int gameCondition;
+	Coordinate playerCoords;
+	
+	public Coordinate[] getFlagpos() {
+		return flagpos;
+	}
+	
+	public boolean getFlagCarrier() {
+		return flagCarrier;
+	}
+	
+	public int getGameCondition() {
+		return gameCondition;
+	}
+	public Coordinate getPlayerCoords() {
+		return playerCoords;
+	}
+	
+}
